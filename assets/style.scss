@@ -1,5 +1,6 @@
 $primary: #d2451e;
 $white: #f3f2ea;
+$warning: #ffd17f;
 .app-header {
     background-color: $primary;
     .app-name,
@@ -8,4 +9,8 @@ $white: #f3f2ea;
     .app-modulesbar * {
         color: $white !important;
     }
+}
+
+.app-modulesbar>li>.uk-active:after {
+    border-bottom-color: $warning;
 }

@@ -29,4 +29,8 @@
 .app-header .app-modulesbar * {
   color: #f3f2ea !important;
 }
+
+.app-modulesbar > li > .uk-active:after {
+  border-bottom-color: #ffd17f;
+}
 /*# sourceMappingURL=style.css.map */
