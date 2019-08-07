@@ -46,6 +46,7 @@ cp-fieldcontainer label {
 
 .app-header .app-name {
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .app-header .app-modulesbar > li > .uk-active:after {
