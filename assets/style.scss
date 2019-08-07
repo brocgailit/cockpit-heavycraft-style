@@ -2,10 +2,14 @@ $primary: #d2451e;
 $white: #f3f2ea;
 $warning: #ffd17f;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|&display=swap');
 
 html, body {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+cp-fieldcontainer label {
+    font-family: 'Roboto', sans-serif;
 }
 
 .app-header {

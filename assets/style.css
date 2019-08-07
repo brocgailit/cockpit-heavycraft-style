@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|&display=swap");
 html, body {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+cp-fieldcontainer label {
+  font-family: 'Roboto', sans-serif;
 }
 
 .app-header {
