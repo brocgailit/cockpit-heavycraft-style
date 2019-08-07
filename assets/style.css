@@ -2,7 +2,31 @@
   background-color: #d2451e;
 }
 
-.app-header .app-name, .app-header .app-name *, .app-header .app-search, .app-header .app-search *, .app-header .app-modulesbar, .app-header .app-modulesbar * {
+.app-header .app-name,
+.app-header .app-search ::-webkit-input-placeholder,
+.app-header .app-search i,
+.app-header .app-modulesbar {
+  color: #f3f2ea !important;
+}
+
+.app-header .app-name,
+.app-header .app-search :-ms-input-placeholder,
+.app-header .app-search i,
+.app-header .app-modulesbar {
+  color: #f3f2ea !important;
+}
+
+.app-header .app-name,
+.app-header .app-search ::-ms-input-placeholder,
+.app-header .app-search i,
+.app-header .app-modulesbar {
+  color: #f3f2ea !important;
+}
+
+.app-header .app-name,
+.app-header .app-search ::placeholder,
+.app-header .app-search i,
+.app-header .app-modulesbar {
   color: #f3f2ea !important;
 }
 /*# sourceMappingURL=style.css.map */
