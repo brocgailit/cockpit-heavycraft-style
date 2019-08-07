@@ -3,7 +3,7 @@ $white: #f3f2ea;
 .app-header {
     background-color: $primary;
     .app-name, .app-search, .app-modulesbar {
-        * {
+        &, * {
             color: $white !important;
         }
     }
