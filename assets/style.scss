@@ -9,6 +9,7 @@ html, body {
 }
 
 cp-fieldcontainer label {
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,6 +21,10 @@ cp-fieldcontainer label {
     .app-search input,
     .app-modulesbar * {
         color: $white !important;
+    }
+
+    .app-name {
+        font-size: 18px;
     }
 
     .app-modulesbar > li > .uk-active:after {
@@ -34,4 +39,13 @@ cp-fieldcontainer label {
     .autocomplete input[type="text"] {
         font-weight: bold;
     }
+}
+
+.uk-text-small {
+    font-size: 14px;
+}
+
+h3, .uk-h3 {
+    font-size: 32px;
+    line-height: 1.1;
 }
