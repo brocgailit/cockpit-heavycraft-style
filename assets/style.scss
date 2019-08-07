@@ -2,15 +2,18 @@ $primary: #d2451e;
 $white: #f3f2ea;
 $warning: #ffd17f;
 
+$family-narrow: 'Roboto Condensed', sans-serif;
+$family-body: 'Roboto', sans-serif;
+
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|&display=swap');
 
 html, body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $family-narrow;
 }
 
 cp-fieldcontainer label {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $family-body;
 }
 
 .app-header {
@@ -43,6 +46,12 @@ cp-fieldcontainer label {
 
 .uk-text-small {
     font-size: 14px;
+}
+
+.uk-badge {
+    font-family: $family-body;
+    font-size: 12px;
+    padding: 3px 12px
 }
 
 h3, .uk-h3 {
