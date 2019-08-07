@@ -76,4 +76,8 @@ h3, .uk-h3 {
   font-size: 32px;
   line-height: 1.1;
 }
+
+.login-image {
+  background-image: url("https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png");
+}
 /*# sourceMappingURL=style.css.map */
