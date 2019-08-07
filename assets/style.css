@@ -5,6 +5,7 @@
 .app-header .app-name,
 .app-header .app-search ::-webkit-input-placeholder,
 .app-header .app-search i,
+.app-header .app-search input,
 .app-header .app-modulesbar * {
   color: #f3f2ea !important;
 }
@@ -12,6 +13,7 @@
 .app-header .app-name,
 .app-header .app-search :-ms-input-placeholder,
 .app-header .app-search i,
+.app-header .app-search input,
 .app-header .app-modulesbar * {
   color: #f3f2ea !important;
 }
@@ -19,6 +21,7 @@
 .app-header .app-name,
 .app-header .app-search ::-ms-input-placeholder,
 .app-header .app-search i,
+.app-header .app-search input,
 .app-header .app-modulesbar * {
   color: #f3f2ea !important;
 }
@@ -26,16 +29,21 @@
 .app-header .app-name,
 .app-header .app-search ::placeholder,
 .app-header .app-search i,
+.app-header .app-search input,
 .app-header .app-modulesbar * {
   color: #f3f2ea !important;
 }
 
-.app-modulesbar > li > .uk-active:after {
+.app-header .app-modulesbar > li > .uk-active:after {
   border-bottom-color: #ffd17f;
 }
 
-.app-logo {
+.app-header .app-logo {
   background-position: center;
   background-image: url("https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png");
+}
+
+.app-header .autocomplete input[type="text"] {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

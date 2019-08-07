@@ -6,16 +6,21 @@ $warning: #ffd17f;
     .app-name,
     .app-search ::placeholder,
     .app-search i,
+    .app-search input,
     .app-modulesbar * {
         color: $white !important;
     }
-}
 
-.app-modulesbar>li>.uk-active:after {
-    border-bottom-color: $warning;
-}
+    .app-modulesbar > li > .uk-active:after {
+        border-bottom-color: $warning;
+    }
+    
+    .app-logo {
+        background-position: center;
+        background-image: url('https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png');
+    }
 
-.app-logo {
-    background-position: center;
-    background-image: url('https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png');
+    .autocomplete input[type="text"] {
+        font-weight: bold;
+    }
 }
