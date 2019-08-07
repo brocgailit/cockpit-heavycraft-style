@@ -14,3 +14,7 @@ $warning: #ffd17f;
 .app-modulesbar>li>.uk-active:after {
     border-bottom-color: $warning;
 }
+
+.app-logo {
+    background-image: url('https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png');
+}
