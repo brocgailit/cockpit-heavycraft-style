@@ -18,6 +18,7 @@ cp-fieldcontainer label {
 
 .app-header {
     background-color: $primary;
+    border-top-width: 0;
     .app-name,
     .app-search ::placeholder,
     .app-search i,

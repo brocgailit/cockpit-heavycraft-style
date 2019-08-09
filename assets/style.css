@@ -10,6 +10,7 @@ cp-fieldcontainer label {
 
 .app-header {
   background-color: #d2451e;
+  border-top-width: 0;
 }
 
 .app-header .app-name,
