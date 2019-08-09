@@ -80,4 +80,8 @@ h3, .uk-h3 {
 .login-image {
   background-image: url("https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png");
 }
+
+cp-field[type=modulelink] p {
+  margin-top: 1em;
+}
 /*# sourceMappingURL=style.css.map */
