@@ -63,6 +63,11 @@ cp-fieldcontainer label {
   font-weight: bold;
 }
 
+.uk-tab {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .uk-text-small {
   font-size: 14px;
 }
