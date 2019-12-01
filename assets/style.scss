@@ -39,7 +39,7 @@ cp-fieldcontainer label {
             border-bottom-color: $warning;
         }
         .uk-dropdown {
-            > li {
+            li {
                 &, a {
                     color: $black !important;
                     &:hover {
