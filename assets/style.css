@@ -54,6 +54,14 @@ cp-fieldcontainer label {
   border-bottom-color: #ffd17f;
 }
 
+.app-header .app-modulesbar .uk-dropdown li {
+  color: #444 !important;
+}
+
+.app-header .app-modulesbar .uk-dropdown li.uk-nav-header {
+  color: #6d6f79 !important;
+}
+
 .app-header .app-logo {
   background-position: center;
   background-image: url("https://res.cloudinary.com/heavy-craft/image/upload/v1565220597/Heavy%20Craft/monogram_no-hex_white-32x23.png");

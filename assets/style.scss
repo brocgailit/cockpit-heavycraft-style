@@ -1,6 +1,8 @@
 $primary: #d2451e;
 $white: #f3f2ea;
 $warning: #ffd17f;
+$dark: #6d6f79;
+$black: #444;
 
 $family-narrow: 'Roboto Condensed', sans-serif;
 $family-body: 'Roboto', sans-serif;
@@ -32,9 +34,19 @@ cp-fieldcontainer label {
         font-family: $family-body;
     }
 
-    .app-modulesbar > li > .uk-active:after {
-        border-bottom-color: $warning;
-    }
+    .app-modulesbar {
+        > li > .uk-active:after {
+            border-bottom-color: $warning;
+        }
+        .uk-dropdown {
+            li {
+                color: $black !important;
+                &.uk-nav-header {
+                    color: $dark !important;
+                }
+            }
+        }
+    } 
     
     .app-logo {
         background-position: center;
