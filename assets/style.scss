@@ -43,7 +43,7 @@ cp-fieldcontainer label {
                 &, a {
                     color: $black !important;
                     &:hover {
-                        color: $white;
+                        color: $white !important;
                     }
                 }
                 &.uk-nav-header {
