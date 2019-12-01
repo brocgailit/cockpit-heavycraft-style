@@ -39,8 +39,13 @@ cp-fieldcontainer label {
             border-bottom-color: $warning;
         }
         .uk-dropdown {
-            li {
-                color: $black !important;
+            > li {
+                &, a {
+                    color: $black !important;
+                    &:hover {
+                        color: $white;
+                    }
+                }
                 &.uk-nav-header {
                     color: $dark !important;
                 }

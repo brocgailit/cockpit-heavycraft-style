@@ -54,11 +54,15 @@ cp-fieldcontainer label {
   border-bottom-color: #ffd17f;
 }
 
-.app-header .app-modulesbar .uk-dropdown li {
+.app-header .app-modulesbar .uk-dropdown > li, .app-header .app-modulesbar .uk-dropdown > li a {
   color: #444 !important;
 }
 
-.app-header .app-modulesbar .uk-dropdown li.uk-nav-header {
+.app-header .app-modulesbar .uk-dropdown > li:hover, .app-header .app-modulesbar .uk-dropdown > li a:hover {
+  color: #f3f2ea;
+}
+
+.app-header .app-modulesbar .uk-dropdown > li.uk-nav-header {
   color: #6d6f79 !important;
 }
 
