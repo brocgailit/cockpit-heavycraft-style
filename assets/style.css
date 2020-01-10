@@ -106,5 +106,6 @@ cp-field[type=modulelink] p {
 cp-field[type=repeater] raw[content] {
   text-transform: none;
   font-style: italic;
+  margin-right: 0.5em;
 }
 /*# sourceMappingURL=style.css.map */
