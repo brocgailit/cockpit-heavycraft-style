@@ -94,7 +94,7 @@ cp-field[type=modulelink] {
 }
 
 cp-field[type=repeater] {
-    raw[content] {
+    [content] {
         text-transform: none;
         font-style: italic;
     }
